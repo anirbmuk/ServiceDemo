@@ -1,0 +1,11 @@
+<div class="row">
+  {{ 'Local Variable: ' + getLocalVariable() }}
+</div>
+<hr>
+<div class="row">
+  {{ 'Global Variable: ' + getGlobalVariable() }}
+</div>
+<hr>
+<div class="row">
+  <button class="btn btn-primary" (click)="setNewValues()">Set Value</button>
+</div>
